@@ -1,0 +1,12 @@
+# VPN Monitoring Aliases
+alias vpn-now='/root/vpn-status.sh'
+alias vpn-detail='/root/vpn-detailed.sh'
+alias vpn-log='less /root/vpn-monthly.log'
+alias vpn-latest='tail -50 /root/vpn-monthly.log'
+alias vpn-stats='vnstat -m'
+
+# Device-specific aliases
+alias vpn-device1='grep "10.8.1.1" /root/vpn-monthly.log'
+alias vpn-device2='grep "10.8.1.2" /root/vpn-monthly.log'
+alias vpn-device3='grep "10.8.1.3" /root/vpn-monthly.log'
+alias vpn-device4='grep "10.8.1.4" /root/vpn-monthly.log'
